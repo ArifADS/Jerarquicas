@@ -124,7 +124,7 @@ private:
     {
         if (ptrRaiz != NULL)
         {
-            //cout<< ptrRaiz->getElemento() << " "; // preorden
+            cout<< ptrRaiz->getElemento() << " "; // preorden
             
             recorridoPreorden2(ptrRaiz->getHijoIzquierdo());
             
@@ -132,7 +132,7 @@ private:
             
             recorridoPreorden2(ptrRaiz->getHermanoDerecho());
             
-            cout<< ptrRaiz->getElemento() << " ";
+            //cout<< ptrRaiz->getElemento() << " "; // WTF IS THIS?
         }
         
         
