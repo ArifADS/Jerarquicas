@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		28338D3D188D7DF800C394BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28338D3C188D7DF800C394BA /* main.cpp */; };
 		28338D3F188D7DF800C394BA /* Estructuras_Jerarquicas.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28338D3E188D7DF800C394BA /* Estructuras_Jerarquicas.1 */; };
+		28338D47188D7E1D00C394BA /* NodoArbol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28338D45188D7E1D00C394BA /* NodoArbol.cpp */; };
+		28338D4A188D81B300C394BA /* ArbolN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28338D48188D81B300C394BA /* ArbolN.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,12 @@
 		28338D39188D7DF800C394BA /* Estructuras Jerarquicas */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Estructuras Jerarquicas"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28338D3C188D7DF800C394BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		28338D3E188D7DF800C394BA /* Estructuras_Jerarquicas.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Estructuras_Jerarquicas.1; sourceTree = "<group>"; };
+		28338D45188D7E1D00C394BA /* NodoArbol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodoArbol.cpp; sourceTree = "<group>"; };
+		28338D46188D7E1D00C394BA /* NodoArbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodoArbol.h; sourceTree = "<group>"; };
+		28338D48188D81B300C394BA /* ArbolN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArbolN.cpp; sourceTree = "<group>"; };
+		28338D49188D81B300C394BA /* ArbolN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArbolN.h; sourceTree = "<group>"; };
+		28338D4B188D831900C394BA /* List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = List.h; path = "../../Estructuras Lineales/Estructuras Lineales/List.h"; sourceTree = "<group>"; };
+		28338D4C188D832000C394BA /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Node.h; path = "../../Estructuras Lineales/Estructuras Lineales/Node.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,12 @@
 			children = (
 				28338D3C188D7DF800C394BA /* main.cpp */,
 				28338D3E188D7DF800C394BA /* Estructuras_Jerarquicas.1 */,
+				28338D45188D7E1D00C394BA /* NodoArbol.cpp */,
+				28338D46188D7E1D00C394BA /* NodoArbol.h */,
+				28338D48188D81B300C394BA /* ArbolN.cpp */,
+				28338D49188D81B300C394BA /* ArbolN.h */,
+				28338D4B188D831900C394BA /* List.h */,
+				28338D4C188D832000C394BA /* Node.h */,
 			);
 			path = "Estructuras Jerarquicas";
 			sourceTree = "<group>";
@@ -117,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28338D47188D7E1D00C394BA /* NodoArbol.cpp in Sources */,
 				28338D3D188D7DF800C394BA /* main.cpp in Sources */,
+				28338D4A188D81B300C394BA /* ArbolN.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,12 +7,34 @@
 //
 
 #include <iostream>
+#include "ArbolN.h"
 
 int main(int argc, const char * argv[])
 {
+    cout << "begin\n";
+    ArbolN<char> a('a');
+    ArbolN<char> b('b');
+    ArbolN<char> c('c');
+    ArbolN<char> d('d');
+    ArbolN<char> e('e');
+    ArbolN<char> f('f');
+    ArbolN<char> g('g');
+    
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    b.insertarSubArbol(e);
+    b.insertarSubArbol(f);
+    
+    d.insertarSubArbol(g);
+    
+    a.insertarSubArbol(b);
+    a.insertarSubArbol(c);
+    a.insertarSubArbol(d);
+    
+    a.preorden();
+    
+    cout << "\nFinish\n";
+    
     return 0;
 }
 
