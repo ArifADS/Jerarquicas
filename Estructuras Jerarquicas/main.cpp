@@ -19,6 +19,8 @@ int main(int argc, const char * argv[])
     ArbolN<char> e('e');
     ArbolN<char> f('f');
     ArbolN<char> g('g');
+    ArbolN<char> copia;
+    
     
 
     
@@ -31,7 +33,12 @@ int main(int argc, const char * argv[])
     a.insertarSubArbol(c);
     a.insertarSubArbol(d);
     
-    a.preorden();
+    
+    copia = a;
+    
+    //a.preorden();
+    
+    copia.preorden();
     
     cout << "\nFinish\n";
     

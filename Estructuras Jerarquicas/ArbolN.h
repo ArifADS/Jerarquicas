@@ -36,7 +36,8 @@ public:
     //~ArbolN();
     ArbolN<T> operator=(ArbolN<T>& arbolCopia)
     {
-        copiarNodos(arbolCopia.getRaiz());
+        this->nodoRaiz = copiarNodos(arbolCopia.nodoRaiz);
+        return *this;
     }
     
     bool isNull()
@@ -92,7 +93,7 @@ public:
     }
     
 private:
-    static ArbolN<T>* copiarNodos(ArbolN<T>* p)
+    static NodoArbol<T>* copiarNodos(NodoArbol<T>* p)
     {
         NodoArbol<T>* nuevoNodo;
         
@@ -101,7 +102,9 @@ private:
         }
         else
         {
+            
             nuevoNodo = new NodoArbol<T>(p->getElemento(),copiarNodos(p->getHijoIzquierdo()),copiarNodos(p->getHermanoDerecho()));
+            
             return nuevoNodo;
         }
     }
